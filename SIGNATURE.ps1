@@ -15,4 +15,4 @@ $hmacsha.key = [Text.Encoding]::ASCII.GetBytes($secret)
 $signature = $hmacsha.ComputeHash([Text.Encoding]::ASCII.GetBytes($message))
 $signature = [Convert]::ToBase64String($signature)
 
-echo $signature
+$OLOLO = "lalala"
